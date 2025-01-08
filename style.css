@@ -1,6 +1,48 @@
+body {
+  line-height: 1.9;
+  font-size: 1.2rem;
+}
+
+#title {
+  text-align: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 6px;
+  background: #ddd;
+}
+
+figure  {
+  padding: 10px;
+  border-radius: 6px;
+  background: #fff;
+  text-align: center;
+}
+
 #image {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+}
+
+section {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+span {
+  font-weight: 800;
+  font: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
 }
